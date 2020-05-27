@@ -9,7 +9,7 @@ import per.xmx.designpattern.proxy.UserServiceImpl;
  * 2.Proxy对象的生成利用JDK的Api，在JVM内存中动态的构建Proxy对象。需要使用java.lang.reflect.Proxy类的newProxyInstance方法。该方法
  * 参数说明如下：
  *  a.ClassLoader loader 原型对象的类加载器
- *  b.Class<?> interfaces 原型对象实现的接口
+ *  b.Class<?>[] interfaces 原型对象实现的接口
  *  c.InvocationHandler h 自定义事件处理器
  *
  * @author xumaoxin

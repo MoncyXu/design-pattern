@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
  */
 public class UserServiceInvocation implements InvocationHandler {
     /**
-     * 原型对象
+     * 代理目标
      */
     private Object target;
 

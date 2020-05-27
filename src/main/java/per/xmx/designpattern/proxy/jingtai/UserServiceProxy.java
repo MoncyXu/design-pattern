@@ -15,18 +15,18 @@ public class UserServiceProxy implements UserService {
 
     @Override
     public void say(String words) {
-        System.out.println("代理：调用原型say(String)");
+        System.out.println("代理：调用代理目标say(String)");
     }
 
     @Override
     public void say() {
-        System.out.println("代理：调用原型say");
+        System.out.println("代理：调用代理目标say");
         userService.say();
     }
 
     @Override
     public void run() {
-        System.out.println("代理：调用原型run");
+        System.out.println("代理：调用代理目标run");
         userService.run();
     }
 
