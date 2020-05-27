@@ -1,5 +1,7 @@
 package per.xmx.designpattern.proxy.jingtai;
 
+import per.xmx.designpattern.proxy.UserService;
+
 /**
  * @author xumaoxin
  * @since 2020/5/27 16:14:04
@@ -9,6 +11,11 @@ public class UserServiceProxy implements UserService {
 
     public UserServiceProxy(UserService userService) {
         this.userService = userService;
+    }
+
+    @Override
+    public void say(String words) {
+        System.out.println("代理：调用原型say(String)");
     }
 
     @Override

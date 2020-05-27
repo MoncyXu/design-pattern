@@ -1,10 +1,15 @@
-package per.xmx.designpattern.proxy.jingtai;
+package per.xmx.designpattern.proxy;
 
 /**
  * @author xumaoxin
  * @since 2020/5/27 16:07:24
  */
 public class UserServiceImpl implements UserService {
+    @Override
+    public void say(String words) {
+        System.out.println("原型：" + words);
+    }
+
     @Override
     public void say() {
         System.out.println("原型：我在说话呢。。。");

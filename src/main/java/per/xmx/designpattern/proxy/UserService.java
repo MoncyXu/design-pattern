@@ -1,4 +1,4 @@
-package per.xmx.designpattern.proxy.jingtai;
+package per.xmx.designpattern.proxy;
 
 /**
  * @author xumaoxin
@@ -6,5 +6,8 @@ package per.xmx.designpattern.proxy.jingtai;
  */
 public interface UserService {
     void say();
+
+    void say(String words);
+
     void run();
 }

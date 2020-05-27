@@ -1,5 +1,8 @@
 package per.xmx.designpattern.proxy.jingtai;
 
+import per.xmx.designpattern.proxy.UserService;
+import per.xmx.designpattern.proxy.UserServiceImpl;
+
 /**
  * 总结：
  * 静态代理模式在不改变目标对象的前提下，实现了对目标对象的功能扩展。
