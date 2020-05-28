@@ -9,7 +9,7 @@ package per.xmx.designpattern.singleton.lazy;
  * @since 2020/5/28 11:02:23
  */
 public final class LazyInstance {
-    private static LazyInstance INSTANCE = null;
+    private static LazyInstance INSTANCE;
 
     private LazyInstance() {
     }
