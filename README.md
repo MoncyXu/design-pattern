@@ -10,3 +10,5 @@
     - dcl 双检锁式
     - innerclass 静态内部类式
     - enums 枚举式
+- prototype 原型模式
+- factory 工程模式
