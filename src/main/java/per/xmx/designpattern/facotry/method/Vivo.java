@@ -1,4 +1,4 @@
-package per.xmx.designpattern.facotry;
+package per.xmx.designpattern.facotry.method;
 
 /**
  * @author xumaoxin

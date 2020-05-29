@@ -11,4 +11,6 @@
     - innerclass 静态内部类式
     - enums 枚举式
 - prototype 原型模式
-- factory 工程模式
+- factory 工厂模式
+    - method 工厂方法模式
+    - abstrakt 抽象工厂模式
